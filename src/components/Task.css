@@ -1,0 +1,345 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 0 10px;
+}
+
+.para {
+    width: 100%;
+    max-width: 1375px;
+    margin: 7% auto 4%;
+}
+
+.para p {
+    font-family: Roboto, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 200;
+    line-height: 1.2;
+    letter-spacing: 0.96px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.paranew {
+    width: 80%;
+    max-width: 1009px;
+    margin: 0 auto 4%;
+    opacity: 0.8;
+}
+
+.paranew p {
+    font-family: Poppins, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.box {
+    margin: 4% auto 8%;
+}
+
+.box img {
+    width: 100%;
+    max-width: 416px;
+    opacity: 0.8;
+}
+
+.first img {
+    width: 100%;
+    max-width: 1415px;
+    height: auto;
+    opacity: 0.8;
+}
+
+.small-images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.small-images div {
+    flex: 1;
+    min-width: 200px;
+    max-width: 347px;
+    text-align: center;
+}
+
+.small-images img {
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+
+.para3,
+.para4,
+.para5 {
+    margin: 10px auto;
+    opacity: 0.8;
+}
+
+.para3 p,
+.para4 p,
+.para5 p {
+    font-family: Roboto, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.3;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.contri {
+    margin: 4% auto;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.contri .contrihead {
+    margin-bottom: 10px;
+}
+
+.contri .contrihead p {
+    font-family: Roboto, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 200;
+    line-height: 1.2;
+    color: #FFFFFF;
+}
+
+.para6 {
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+    opacity: 0.8;
+}
+
+.para6 p {
+    font-family: Poppins, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.price {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px auto;
+    max-width: 886px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.price1 {
+    flex: 1;
+    min-width: 200px;
+    max-width: 250px;
+    text-align: center;
+
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.price1 p {
+    margin: 10px 0;
+}
+
+.aa,
+.aaa,
+.aaaa p {
+    font-family: Roboto, sans-serif;
+    font-size: 2rem;
+    font-weight: 200;
+    line-height: 1;
+}
+
+.bb,
+.bbb,
+.bbbb p {
+    font-family: Roboto, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.last {
+    width: 80%;
+    max-width: 938px;
+    margin: 4% auto;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.lasthead p {
+    font-family: Roboto, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    letter-spacing: 0.96px;
+    color: #FFFFFF;
+}
+
+.lastpara p {
+    font-family: Roboto, sans-serif;
+    font-size: 1.75rem;
+    font-weight: 300;
+    line-height: 1.2;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10%;
+}
+
+.boxa,
+.boxb {
+    padding: 20px;
+    width: 300px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.boxa {
+    border: 1px solid white;
+
+}
+
+.boxb {
+    background-color: #FFFFFF;
+
+}
+
+.boxa p,
+.boxb p {
+    font-family: Poppins, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #FFFFFF;
+}
+
+.boxb p {
+    color: #000000;
+}
+
+.final p {
+    font-family: Roboto, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* Media Queries for different screen sizes */
+
+@media (max-width: 1024px) {
+    .para p {
+        font-size: 2rem;
+    }
+
+    .paranew p,
+    .para3 p,
+    .para4 p,
+    .para5 p,
+    .para6 p {
+        font-size: 0.875rem;
+    }
+
+    .lasthead p {
+        font-size: 2rem;
+    }
+
+    .lastpara p {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .para p {
+        font-size: 1.75rem;
+    }
+
+    .paranew p,
+    .para3 p,
+    .para4 p,
+    .para5 p,
+    .para6 p {
+        font-size: 0.75rem;
+    }
+
+    .lasthead p {
+        font-size: 1.5rem;
+    }
+
+    .lastpara p {
+        font-size: 1.25rem;
+    }
+
+    .price {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .price1 {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .para p {
+        font-size: 1.5rem;
+    }
+
+    .paranew p,
+    .para3 p,
+    .para4 p,
+    .para5 p,
+    .para6 p {
+        font-size: 0.625rem;
+    }
+
+    .lasthead p {
+        font-size: 1.25rem;
+    }
+
+    .lastpara p {
+        font-size: 1rem;
+    }
+
+    .price1 .aa,
+    .price1 .aaa,
+    .price1 .aaaa p {
+        font-size: 1.5rem;
+    }
+
+    .price1 .bb,
+    .price1 .bbb,
+    .price1 .bbbb p {
+        font-size: 1rem;
+    }
+}
